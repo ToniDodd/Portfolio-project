@@ -26,3 +26,16 @@ h2{
    margin: 20px;
    
 }
+.self{
+    max-width: 500px;
+    max-height: 500px;
+}
+.about-heading{
+    margin: 50px;
+}
+@media(max-width: 600px){
+    .me-img{
+        display: none;
+
+    }
+}
