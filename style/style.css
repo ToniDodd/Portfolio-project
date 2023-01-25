@@ -1,0 +1,25 @@
+
+h1{
+    font-family: 'Unbounded', cursive;
+    font-size: 60px;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-size: 30px;
+    margin: 0;
+}
+.heading-wrap{
+    padding: 130px;
+    background: linear-gradient(105.9deg, rgb(15, 209, 165) 3.8%, rgb(15, 157, 209) 20.8%, rgb(133, 13, 230) 51.9%, rgb(230, 13, 202) 73.1%, rgb(242, 180, 107) 94.1%);    
+    color: white;
+    text-align: center;
+
+}
+.btn{
+    margin: 50px;
+    background: white;
+    color:rgb(15, 157, 209)
+    
+}
