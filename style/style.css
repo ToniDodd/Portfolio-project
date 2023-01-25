@@ -36,10 +36,16 @@ h2{
 
 img{
  border-radius: 10px;
+ margin: 30px;
+ display: inline;
 }
 @media(max-width: 500px){
     .about-head{
         font-size:  30px;
+        margin: 10px autoß;
+    }
+    .about{
+        margin-top: 10px;
     }
 
 }
