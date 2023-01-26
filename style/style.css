@@ -6,7 +6,11 @@ h1{
 h2{
     font-family: 'Raleway', sans-serif;
 }
-
+img{
+ border-radius: 10px;
+ margin: 30px;
+ display: inline;
+}
 .heading-wrap{
     padding: 130px;
     background: linear-gradient(114.3deg, rgb(19, 126, 57) 0.2%, rgb(8, 65, 91) 68.5%);    color: white;
@@ -50,11 +54,29 @@ h2{
     background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
     padding: 100px;
 }
-img{
- border-radius: 10px;
- margin: 30px;
- display: inline;
+.footer-email a{
+
+    text-decoration: none;
+    color: black;
+    margin: 45px;
 }
+.footer-email a:hover{
+    color: rgb(19, 126, 57);
+}
+.footer-social a{
+    text-decoration: none;
+    color: rgb(19, 126, 57);
+    background: rgb(151, 213, 241);
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.footer-social a:hover{
+    color: rgb(145, 205, 233);
+    background: rgb(19, 126, 57);
+}
+
+
 @media(max-width: 500px){
     .about-head{
         font-size: 18px;
