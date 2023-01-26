@@ -100,4 +100,8 @@ img{
     .closing-hero{
         padding: 75px;
     }
+    h1,h2{
+        font-size: 48px;
+        text-align: center;
+    }
 }
