@@ -31,8 +31,13 @@ h2{
     max-height: 500px;
 }
 .about-heading{
-    margin: 50px;
+    margin: 70px;
+    padding-top: 80px;
 }
+.about{
+    margin: 40px;
+}
+
 .closing{
     display: block;
     text-align: center;
@@ -52,11 +57,25 @@ img{
 }
 @media(max-width: 500px){
     .about-head{
-        font-size:  30px;
-        margin: 10px autoß;
+        font-size: 18px;
+    }
+.img-fluid{
+    margin: 0;
+}
+    .about-head{
+        margin: 30px;
     }
     .about{
-        margin-top: 10px;
+        margin: 15px;
+        padding-top: 0;
     }
-
+    .closing{
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+        margin-top: 15px;;
+    }
+    .closing-hero{
+        padding: 75px;
+    }
 }
