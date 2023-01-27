@@ -10,13 +10,14 @@ img{
  border-radius: 10px;
  margin: 30px;
  display: inline;
+ max-width: 500px;
 }
 .heading-wrap{
     padding: 130px;
     background: linear-gradient(114.3deg, rgb(19, 126, 57) 0.2%, rgb(8, 65, 91) 68.5%);    color: white;
     text-align: center;
     width: auto;
-    min-width: 500px;
+    
 
 }
 .eugene-photo{
@@ -83,6 +84,8 @@ img{
     }
 .img-fluid{
     margin: 0;
+    display: none;
+    
 }
     .about-head{
         margin: 30px;
@@ -104,4 +107,11 @@ img{
         font-size: 48px;
         text-align: center;
     }
+    .heading-wrap{
+      padding: 0;
+    }
+    .eugene-photo{
+        width: 50%;
+    }
+  
 }
